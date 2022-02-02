@@ -1,0 +1,6 @@
+Media query is a css and makes the css different on diff screen sizes
+for the portfolio use
+
+form
+form validation and email validation
+media-query
