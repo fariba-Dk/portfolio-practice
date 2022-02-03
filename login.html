@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>My Portfolio</title>
+  </head>
+  <div>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <a href="https://github.com/fariba-Dk">Github</a>
+      <a href="https://www.linkedin.com/in/fariba-dk/">LinkedIn</a>
+      <a href="https://www.linkedin.com/company/techtonica/">Tweeter</a>
+      <a
+        href="https://docs.google.com/document/d/10qM5KR4DzveExA_QjaC1WPIYELCMmnh_8alrOrfX2oU/edit"
+        >Resume</a
+      >
+      <a href="index.html">My Projects</a>
+      <a src="form.html" class="contact">Contact Me</a>
+       <marquee behavior="scroll" width="100%">
+          <font color="yellow" loop="-1">
+            <strong>👋 Hi there! Welcome to my page!</strong> Today's Date is :
+            <span id="date"></span>
+          </font>
+      </marquee>
+    </nav>
+    <div class="body">
+      <div>
+        <image class="image1" src="images/Fariba-Dadko-2022-H1.jpeg">
+          <a href="#"></a>
+        </image>
+      </div>
+      <h2>Hi, I'm Fariba and I'm a software developer</h2>
+      <hr>
+    </div>
+    <div>
+      <form>
+        <p>
+        <label for="password1">Enter the password</label>:
+        <input type="password" name="password1" id="password1" required>
+        </p>
+        <p>
+        <label for="password2">Confirm the password</label>:
+        <input type="password" name="password2" id="password2" required>
+        </p>
+        <input type="submit" value="Send">
+        </form>
+        <p id="passwordHelp"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
